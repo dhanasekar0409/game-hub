@@ -7,19 +7,20 @@ export default defineConfig({
   build: {
     rollupOptions: {
       input: {
-        index: path.resolve(__dirname, "index.html")
+        index: path.resolve(__dirname, "index.html"),
         // main: path.resolve(__dirname, 'main.html')
-      }
-    }
+      },
+    },
   },
   resolve: {
     alias: {
-      "~bootstrap": path.resolve(__dirname, "./node_modules/bootstrap")
-    }
+      "~bootstrap": path.resolve(__dirname, "./node_modules/bootstrap"),
+    },
   },
   plugins: [react()],
   server: {
     // open: './main.html',
-    open: "./"
-  }
+    open: "./",
+    port: 3000,
+  },
 });
