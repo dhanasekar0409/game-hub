@@ -6,6 +6,6 @@ interface Platform {
   slug: string;
 }
 
-const usePlatforms = () => ({ data: platforms, error: null });
+const usePlatforms = () => ({ data: platforms, error: null, isLoading: false });
 
 export default usePlatforms;

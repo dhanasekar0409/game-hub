@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/react";
 import { Box, Grid, GridItem, HStack, Show } from "@chakra-ui/react";
 import { useState } from "react";
 import NavBar from "./components/NavBar";
