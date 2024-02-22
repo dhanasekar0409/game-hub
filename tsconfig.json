@@ -18,6 +18,6 @@
     "strict": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["src"],
+  "include": ["src", "src/services"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
